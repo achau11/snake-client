@@ -34,6 +34,9 @@ const handleUserInput = function (data) {
   if (data === 'x') {
     connection.write('Say: no');
   }
+  if (data === 'c') {
+    connection.write('Say: 😀');
+  }
 };
 
 module.exports = { setupInput };
